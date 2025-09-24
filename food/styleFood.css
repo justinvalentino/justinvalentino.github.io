@@ -1,0 +1,47 @@
+body {
+    background-color: #00be62;
+    font-family: 'Lovelace Text', serif;
+}
+
+h1 {
+    font-size: clamp(4rem, 9vw, 11rem);
+    color: #bd0039;;
+    margin: 0 auto 100px auto;
+    margin-top: 60px;
+    max-width: 90%;
+}
+
+.paragraph p {
+    width: fit-content;
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: clamp(1.5rem, 3vw, 4rem);
+    text-align: justify;
+}
+
+.paragraph {
+    margin-top: 250px;
+    margin-bottom: 300px;
+}
+
+.flex-container img {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 300px;
+}
+
+.details {
+    text-align: justify;
+    font-size: clamp(1.4rem, 2.5vw, 2.5rem);
+    margin: 0 auto 200px auto;
+    padding: 0 15%;
+    max-width: 900px;
+    color: #222;
+}
